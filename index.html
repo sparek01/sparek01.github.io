@@ -3,13 +3,20 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>Shivani Parekh</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- external style sheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- hamburger menu -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- external style sheet -->
 </head>
+
 <body> 
+    <!-- page heading -->
     <header class="header">
+        <!-- nav bar -->
         <nav class="nav">
+            <!-- hamburger menu -->
+            <div class="hamburger" id="hamburger">
+                <i class="fa fa-bars"></i> <!-- hamburger icon -->
+            </div>
             <ul id="nav">
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#coursework">Coursework</a></li>
@@ -17,90 +24,94 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <!-- page title -->
         <div class="title">
-            <h1>Hi, I'm Shivani Parekh!</h1>
+            <h1>Hi, I'm Shivani!</h1>
         </div>
     </header>
 
-    <div class="content">
-        <div class="about" id="about">
-            <h2>About Me</h2>
-            <p>
-                I am a sophomore at Tufts University majoring in Computer Science. 
-                My interests lie in cybersecurity, especially vulnerability exploitation 
-                and threat intelligence. I am eager to learn more about all aspects 
-                of the field as I progress through my education.
-                <br><br>
-                Outside of academics, I love reading, particularly Jane Austen. I also
-                enjoy watching sitcoms, listening to music, swimming, and hiking. 
-                Perhaps most importantly, I’m a highly dedicated Philadelphia Eagles 
-                fan (Go Birds!).
-            </p>
-        </div>
-    
-        <div class="coursework" id="coursework">
-            <h2>Coursework</h2>
-            <p>
-                <strong>Past CS classes: </strong>Intro to CS, Data Structures, Machine 
-                Structure & Assembly Language Programming, Discrete Mathematics
-                <br>
-                <strong>Current CS classes: </strong>Web Programming, Database Systems, 
-                Cyber Security & Cyber Warfare
-                <br>
-                <strong>Other classes I've loved: </strong>Mixed Martial Arts, Gospel 
-                Choir, Latin Social Dance, The Designer's Eye (film & architecture!)
-            </p>
-        </div>
-    
-        <div class="projects" id="projects">
-            <h2>Projects</h2>
-            <p>
-                Due to course policy, I cannot post my code publicly. Feel free to 
-                contact me for more details on my work!
-                <br> <br>
-                <strong>Sushi Go (C++)</strong>- Implementation of the 'Sushi Go!' 
-                card game.
-                <br>
-                <strong>Metro Sim (C++)</strong>- Simulation of passengers on a train 
-                as they arrive and depart between stations.
-                <br>
-                <strong>Calc You Later (C++)</strong>- Reverse Polish notation calculator 
-                that performs basic arithmetic.
-                <br>
-                <strong>Zap (C++)</strong>- Huffman compressor/decompressor for plain
-                text.
-                <br>
-                <strong>Gerp (C++)</strong>- Search tool of input files for desired 
-                plain text pattern, mimicking the Linux 'grep' command.
-                <br>
-                <strong>Locality (C)</strong>- Tool to rotate, flip, and transpose 
-                images. 
-                <br>
-                <strong>Arith (C)</strong>- Lossy image compressor/decompressor.
-                <br>
-                <strong>Somerville Art Museum (HTML, CSS, JavaScript)</strong>- 
-                Comprehensive website for fictional business.
-                <br>
-                <strong>Capture the Flag</strong>- Compiled system vulnerabilities, 
-                findings, and security recommendations in a report.
-            </p>
-        </div>
-    
-        <div class="contact" id="contact">
-            <h2>Contact</h2>
-            <p>
-                Let's connect on <a href="https://linkedin.com/in/shivani-parekh-005462310" target="_blank">LinkedIn</a>!
-                <br>
-                See my work on <a href="https://github.com/sparek01" target="_blank">GitHub</a>!
-            </p>
-        </div>
-
-        <br>    
+    <!-- about section -->
+    <div class="about" id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a sophomore at Tufts University majoring in Computer Science. 
+            My interests lie in cybersecurity, especially vulnerability exploitation 
+            and threat intelligence. I am always eager to learn more about all
+            aspects of the field as I progress through my education.
+            <br><br>
+            Outside of academics, I love reading (particularly Jane Austen), and 
+            I am an avid sitcom watcher (currently binge-ing Brooking Nine-Nine). 
+            I also enjoy listening to music, swimming, and hiking. And of course, 
+            I am a highly dedicated Philadelphia Eagles fan (Go Birds!).
+        </p>
     </div>
 
+    <!-- coursework section -->
+    <div class="coursework" id="coursework">
+        <h2>Coursework</h2>
+        <p>
+            <strong>Past CS classes: </strong>Intro to CS, Data Structures, Machine 
+            Structure & Assembly Language Programming, Discrete Mathematics
+            <br>
+            <strong>Current CS classes: </strong>Web Programming, Database Systems, 
+            Cyber Security & Cyber Warfare
+            <br>
+            <strong>Other classes I've loved: </strong>Mixed Martial Arts, Gospel 
+            Choir, Latin Social Dance, The Designer's Eye (film & architecture!)
+        </p>
+    </div>
+
+    <!-- project section -->
+    <div class="projects" id="projects">
+        <h2>Projects</h2>
+        <p>
+            Due to course policy, I cannot post my code publicly. Feel free to 
+            contact me for more details on my work!
+            <br> <br>
+            <strong>Sushi Go (C++)</strong>- Implementation of the 'Sushi Go!' 
+            card game.
+            <br>
+            <strong>Metro Sim (C++)</strong>- Simulation of passengers on a train 
+            as they arrive and depart between stations.
+            <br>
+            <strong>Calc You Later (C++)</strong>- Reverse Polish notation calculator 
+            that performs basic arithmetic.
+            <br>
+            <strong>Zap (C++)</strong>- Huffman compressor/decompressor for plain
+            text.
+            <br>
+            <strong>Gerp (C++)</strong>- Search tool of input files for desired 
+            plain text pattern, mimicking the Linux 'grep' command.
+            <br>
+            <strong>Locality (C)</strong>- Tool to rotate, flip, and transpose 
+            images. 
+            <br>
+            <strong>Arith (C)</strong>- Lossy image compressor/decompressor.
+            <br>
+            <strong>Somerville Art Museum (HTML, CSS, JavaScript)</strong>- 
+            Comprehensive website for fictional business.
+            <br>
+            <strong>Capture the Flag</strong>- Report of findings, system  
+            vulnerabilities, and security recommendations.
+        </p>
+    </div>
+
+    <!-- contact section -->
+    <div class="contact" id="contact">
+        <h2>Contact</h2>
+        <p>
+            Let's connect on <a href="https://linkedin.com/in/shivani-parekh-005462310" target="_blank">LinkedIn</a>!
+            <br>
+            See my work on <a href="https://github.com/sparek01" target="_blank">GitHub</a>!
+        </p>
+    </div>
+
+    <br>    
+
+    <!-- transition effect -->
     <script>
-        $(document).ready(function(){
-            $(".content").fadeIn(1000);
+        $("#hamburger").click(function(){
+                $("#nav").slideToggle(500);
         });
     </script>
 </body>

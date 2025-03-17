@@ -1,5 +1,6 @@
+/* general style */
 html, body {
-    background-color: #dff1f3;
+    background-color: #f2f6ff;
     color: #333;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     margin: 0;
@@ -9,24 +10,51 @@ html, body {
     line-height: 1.6;
 }
 
+/* page heading background */
 header {
-    background-color: #007b86;
+    background-color: #3068c6;
     padding: 30px 20px;
 }
 
+/* hamburger menu */
+.hamburger {
+    cursor: pointer;
+    font-size: 22px;
+    color: #ffffff; 
+    position: absolute;
+    right: 20px;
+    transition: color 0.3s;
+}
+
+/* hamburger menu */
+.hamburger:hover {
+    color: #ff89b3;
+}
+
+/* nav bar */
 .nav {
     text-align: right;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 100%;
 }
 
+/* nav bar links */
 ul#nav {
     list-style: none;
-    padding: 0;
+    padding: 10px;
     margin: 0;
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 100%;
 }
 
+/* nav bar links */
 ul#nav li {
-    display: inline-block;
-    margin: 0 15px;
+    display: block;
 }
 
 ul#nav li a {
@@ -34,26 +62,22 @@ ul#nav li a {
     padding: 10px 15px;
     color: #ffffff;
     font-size: 18px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+    transition: color 0.3s;
 }
 
+/* nav bar */
 ul#nav li a:hover {
-    background-color: #ff89b3;
-    color: #ffffff;
+    color: #ff89b3;
 }
 
-.content {
-    display: none;
-}
-
-.title h1 {
-    font-size: 36px;
+/* 'Hi, I'm Shivani Parekh' */
+.title {
     color: #ffffff;
     text-align: center;
     margin-top: 20px;
 }
 
+/* subheadings background */
 .about, .coursework, .projects, .contact {
     margin: 40px auto;
     padding: 20px;
@@ -63,31 +87,33 @@ ul#nav li a:hover {
     box-shadow: 0 4px 8px #86868642;
 }
 
+/* 'About', 'Coursework', 'Projects', 'Contact' */
 h2 {
-    color: #007b86;
-    font-size: 28px;
+    color: #3068c6;
+    font-size: 23px;
     margin-bottom: 20px;
 }
 
+/* bold text */
 strong {
     color: #ff89b3;
 }
 
+/* links */
 a {
     color: #ff89b3;
     text-decoration: none;
     font-weight: bold;
 }
 
+/* links */
 a:hover {
     text-decoration: underline;
 }
 
-ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-ul li {
-    margin-bottom: 10px;
+/* mobile navigation */
+@media (max-width: 580px){
+    .title {
+        text-align: left;
+    } 
 }
