@@ -2,12 +2,12 @@
 html, body {
     background-color: #f2f6ff;
     color: #333;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-family: "Golos Text", sans-serif;
     margin: 0;
     padding: 0;
     height: 100%;
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 /* page heading background */
@@ -75,6 +75,8 @@ ul#nav li a:hover {
     color: #ffffff;
     text-align: center;
     margin-top: 20px;
+    font-family: "Kiwi Maru", serif;
+    font-size: 21px;
 }
 
 /* subheadings background */
@@ -84,7 +86,7 @@ ul#nav li a:hover {
     max-width: 1000px;
     background-color: #ffffff;
     border-radius: 10px;
-    box-shadow: 0 4px 8px #86868642;
+    box-shadow: 0 4px 8px #ff89b228;
 }
 
 /* 'About', 'Coursework', 'Projects', 'Contact' */
