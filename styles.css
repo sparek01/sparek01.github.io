@@ -1,6 +1,6 @@
 /* general style */
 html, body {
-    background-color: #f2f6ff;
+    background-color: #ebfff6;
     color: #333;
     font-family: "Golos Text", sans-serif;
     margin: 0;
@@ -12,7 +12,7 @@ html, body {
 
 /* page heading background */
 header {
-    background-color: #3068c6;
+    background-color: #009E60;
     padding: 30px 20px;
 }
 
@@ -91,7 +91,7 @@ ul#nav li a:hover {
 
 /* 'About', 'Coursework', 'Projects', 'Contact' */
 h2 {
-    color: #3068c6;
+    color: #009E60;
     font-size: 23px;
     margin-bottom: 20px;
 }
