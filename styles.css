@@ -104,13 +104,12 @@ strong {
 /* links */
 a {
     color: #ff89b3;
-    text-decoration: none;
     font-weight: bold;
 }
 
 /* links */
 a:hover {
-    text-decoration: underline;
+    color: #009E60;
 }
 
 /* mobile navigation */
