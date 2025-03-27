@@ -110,6 +110,7 @@ a {
 /* links */
 a:hover {
     color: #009E60;
+    transition: color 0.3s;
 }
 
 /* mobile navigation */
